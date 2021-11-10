@@ -44,7 +44,6 @@ for i in range(num_episodes):
 
         next_state, reward, done, info = env.step(action)
 
-        #         print(info['y_pos'])
         onGround = info["y_pos"]
         stuck_buffer.append(info["x_pos"])
 
