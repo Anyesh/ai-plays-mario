@@ -1,0 +1,3 @@
+tensorflow==2.6.0
+numpy
+gym_super_mario_bros
