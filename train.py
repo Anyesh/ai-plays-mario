@@ -40,7 +40,7 @@ for i in range(num_episodes):
         else:
             action = dqn.act(state, onGround)
 
-        print("ACTION IS" + str(action))
+        print(f"ACTION IS{str(action)}")
 
         next_state, reward, done, info = env.step(action)
 
